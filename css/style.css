@@ -12,6 +12,10 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+body,
+html {
+  overflow-x: hidden;
+}
 
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
@@ -735,7 +739,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 2, ../../Arafath/CL/December/236. Event-02/HTML/scss/_section_title.scss */
   .section_title h3 {
-    font-size: 30px;
+    font-size: 45px;
     line-height: 36px;
   }
 
@@ -804,7 +808,7 @@ h3 {
 
 /* line 50, ../../Arafath/CL/December/236. Event-02/HTML/scss/_section_title.scss */
 .section_title h4 {
-  font-size: 30px;
+  font-size: 45px;
   font-weight: 400;
   color: #d49231;
   font-family: "Anton", sans-serif;
@@ -2458,7 +2462,7 @@ h3 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  border: 2px #d49231 solid;
+  /*border: 2px #d49231 solid;*/
   background-color: black;
   width: 26px;
   height: 26px;
@@ -2535,7 +2539,7 @@ h3 {
 
 /* line 90, ../../Arafath/CL/December/236. Event-02/HTML/scss/_program_details.scss */
 .program_details_area .program_detail_wrap .single_propram .porgram_top span {
-  color: #d49231;
+  color: white;
   font-size: 30px;
   font-family: "Anton", sans-serif;
   display: block;
@@ -5830,8 +5834,12 @@ h6 {
   transform: rotateY(180deg);
 }
 
-.flip-card-back h1{
+.flip-card-back h2{
   color: #d49231 !important;
+}
+
+.flip-card-back p{
+  font-size: 18px;
 }
 
 .homequote{
@@ -5840,4 +5848,12 @@ h6 {
 }
 .homequote span{
   font-size: 0.8rem;
+}
+
+.single_propram .boxed-btn3{
+  padding: 10px 30px;
+}
+
+.sponsors img{
+  width: 100% !important;
 }
